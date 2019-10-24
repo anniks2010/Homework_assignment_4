@@ -12,10 +12,13 @@ namespace Homework_assignment_4
             for (int i=0; i < 100; i++)
             {
                 numbers[i] = i + 1;
-                sumOfNumbers = sumOfNumbers + i;
-               
-                Console.WriteLine(numbers[i]);
+                Console.WriteLine(numbers[i]);  
             }
+            for (int j =0; j <= 100; j++)
+            {
+                sumOfNumbers = sumOfNumbers + j;
+            }
+            
             Console.WriteLine($"Sum of numbers 1 to 100 is {sumOfNumbers}.");
        
         }
